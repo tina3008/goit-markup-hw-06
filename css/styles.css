@@ -796,14 +796,15 @@ background-color: #404bbf;
 .footer-form{
 	display: flex;	
 	align-items: center;
-	gap: 24px;
+	/* gap: 24px; */
 	width: 132px;
 }
 
-.footer-contact{
+/* .footer-contact{
 	
 	margin-right: 80px;
-}
+} */
+
 	/* /tablet style --------=================================------*/
 		}
 		
@@ -825,6 +826,20 @@ background-color: #404bbf;
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+	.footer_main .container{
+		
+	  max-width:768px;
+	  padding-left: 16px;
+	  padding-right: 16px;
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	}
+	.footer-send{
+		margin-left: 80px;
+	}
+}
 
 /* PC style ------------================================----*/
 
@@ -893,9 +908,11 @@ background-color: #404bbf;
 				.footer_text{				
 					margin-right: 120px;				
 				}
-				.footer-send{					
-					margin-left: 80px;
+				.footer-contact{
+	
+					margin-right: 80px;
 				}
+				
 	/*PC end============================== */	
 	}
 	
