@@ -887,7 +887,7 @@ background-color: #404bbf;
 /* modal++++++++++++++++++ */
 .modal{
 	width: 288px;
-height: 623px;
+min-height: 623px;
 padding-left: 16px;
 padding-right: 16px;
 }
