@@ -27,7 +27,7 @@
             <li class="heder_list">
               <a href="./index.html" class="link line-down">Studio</a>
             </li>
-            <li class="heder_list"><a href="" class="link">Portfolio</a></li>
+            <li class="heder_list"><a href="#portfolio" class="link">Portfolio</a></li>
             <li class="heder_list"><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
@@ -61,7 +61,7 @@
       <section class="section-title">
         <div class="container">
           <h1 class="main-name">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" id="open-modal">Order Service</button>
         </div>
       </section>
 
@@ -303,7 +303,7 @@
 
       <!-- section4------------------------  -->
 
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <h2 class="title-section">Our Portfolio</h2>
           <ul class="portfolio_section position">
@@ -644,9 +644,11 @@
     </footer>
 
     <!-- modalwindow ------------  -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open"> -->
+
+      <div class="backdrop" id="modal-open">
       <div class="modal">
-        <button class="icon-closed-button" type="button">
+        <button class="icon-closed-button" type="button" id="modalBtn">
           <svg
             class="icon-closed"
             width="8"
@@ -746,8 +748,8 @@
     </div>
     <!-- mobail menu---- -->
     <!-- <div class="mobail-menu is-open"> -->
-    <div class="mobail-menu is-open">
-      <button class="icon-closed-button" type="button">
+    <div class="mobail-menu" id="mobail-open">
+      <button class="icon-closed-button" id="mobiail-btn" type="button">
         <svg
           class="icon-closed"
           width="8"
@@ -815,5 +817,6 @@
         </li>
       </ul>
     </div>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
